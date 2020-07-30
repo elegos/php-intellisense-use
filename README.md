@@ -2,10 +2,17 @@
 
 This plugin automatically writes the use statements, hinting the developer for classes and methods via intellisense.
 
+Supported OS:
+
+- Linux
+- Windows (untested)
+- UNIX-like systems (like MacOS) (untested)
+
 ## Features
 
 <!-- TODO: animations -->
 
+- Classes and methods cache upon init
 - Automatic use statements
   - Name collision detection
   - FQCN simplification
@@ -13,6 +20,8 @@ This plugin automatically writes the use statements, hinting the developer for c
 
 ### TODO
 
+- Cache update upon save / delete
+- Interfaces, Traits etc cache
 - Methods hinting (using PHP and JS for current file?)
 - Arguments hinting (class constructor)
 - Arguments hinting (methods)
@@ -20,7 +29,7 @@ This plugin automatically writes the use statements, hinting the developer for c
 
 ## Requirements
 
-- PHP 7.1 + (tested with PHP 7.4.8). It is required to explore the PHP source files 
+- PHP 7.1 + (tested with PHP 7.4.8). It is required to explore the PHP source files.
 
 ## Extension Settings
 
